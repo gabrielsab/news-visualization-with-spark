@@ -57,7 +57,7 @@ for news_object in news:
 			last_id = news_object["_id"]
 		# we need to decide which fields to enqueue
 		# Links[0].Body, Title.Text, Summary.Text, FeedRegion (country), TimeStamp, RawCategory
-		if (("Links" not in news_object) or ("Links" in news_object and news_object["Links"] != None and ("Body" not in news_object["Links"][0])) or "Url" not in news_object["Links"][0]):
+		if (("Links" not in news_object or news_object["Links"] == None) or ("Links" in news_object and news_object["Links"] != None and (("Body" not in news_object["Links"][0]) or ("FinalUrl" not in news_object["Links"][0])))):
 			continue
 		raw_category = ""
 		if ("RawCategory" in news_object):
@@ -73,7 +73,7 @@ for news_object in news:
 		news_object_to_enqueue = { 	"body" : news_object["Links"][0]["Body"], "title" : title,
 									"summary" : summary, "region" : news_object["FeedRegion"],
 									"timestamp" : news_object["TimeStamp"].strftime("%Y-%m-%d %H:%M:%S"), "rawCategory" : raw_category,
-									"url" : news_object["Links"][0]["Url"] }
+									"url" : news_object["Links"][0]["FinalUrl"] }
 		news_object_to_enqueue = json.dumps(news_object_to_enqueue)
 		publish_message(kafka_producer, 'news', 'raw', news_object_to_enqueue)
 	except KeyError:

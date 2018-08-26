@@ -121,10 +121,10 @@ data      = data.select("entity", "sentiment", "url", "region", "timestamp").wit
     .groupBy(window("timestamp", "2 minutes", "2 minutes"), 'region', 'entity')\
     .agg(collect_list("sentiment"), collect_list("url"))
 
-data.writeStream.outputMode("complete").format("console").start().awaitTermination()
-# data.writeStream.outputMode("append")\
-#     .format("json")\
-#     .option("checkpointLocation", checkpointLocation) \
-#     .option("path", path)\
-#     .start()\
-#     .awaitTermination()
+# data.writeStream.outputMode("complete").format("console").start().awaitTermination()
+data.writeStream.outputMode("append")\
+    .format("json")\
+    .option("checkpointLocation", checkpointLocation) \
+    .option("path", path)\
+    .start()\
+    .awaitTermination()
