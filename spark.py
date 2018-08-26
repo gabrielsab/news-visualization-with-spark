@@ -4,6 +4,7 @@
 from pyspark.sql.types import *
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, from_json, explode, split, udf, window, split, collect_list
+# from pyspark import SparkContext, SparkConf
 
 import sys
 import os
@@ -33,12 +34,15 @@ json_schema = StructType([
     StructField("region", StringType()),
     StructField("summary", StringType()),
     StructField("timestamp", TimestampType()),
-    StructField("rawCategory", StringType())])
+    StructField("rawCategory", StringType()),
+    StructField("url", StringType())])
 
 spark = SparkSession.builder.appName("PythonStreamingRecieverKafka")\
     .config('spark.jars.packages', 'org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.0')\
     .config("spark.driver.memory","2G")\
     .getOrCreate()
+
+spark.sparkContext.setLogLevel("ERROR")
 
 inData = spark.readStream.format("kafka")\
     .option("kafka.bootstrap.servers", "localhost:9092")\
@@ -62,7 +66,7 @@ def entity_is_good(entity, lang):
     
     return True
 
-def extract_entities(body, region):
+def extract_entities(body, region, url):
     entity_positions  = {}
     sentence_ends 	  = []
     entity_sentiments = {}
@@ -80,7 +84,6 @@ def extract_entities(body, region):
 
     nlp_model = nlps[lang]
     doc 	  = nlp_model(body.replace('\r', ' ').replace('\n', ' '))
-    entities  = [ent.text.strip() for ent in doc.ents if entity_is_good(ent.text, lang)]
     for ent in doc.ents:
         cleaned_ent = ent.text.strip()
         if entity_is_good(cleaned_ent, lang):
@@ -103,19 +106,20 @@ def extract_entities(body, region):
     for ent in entity_sentiments:
         sentiments = entity_sentiments[ent]
         for s in sentiments:
-            ret.append((str(ent) + "---" + str(s)))
+            ret.append((str(ent) + "---" + str(s) + "---" + url))
     return ret
 
 extract_entities_udf = udf(extract_entities, ArrayType(StringType()))
 
-data = data.withColumn('entitysentiment', explode(extract_entities_udf('body', 'region')))
+data = data.withColumn('entitysentiment', explode(extract_entities_udf('body', 'region', 'url')))
 
 split_col = split(data['entitysentiment'], '---')
 data 	  = data.withColumn('entity', split_col.getItem(0))
 data      = data.withColumn('sentiment', split_col.getItem(1))
-data      = data.select("entity", "sentiment", "region", "timestamp").withWatermark("timestamp", "1 minute")\
+data      = data.withColumn('url', split_col.getItem(2))
+data      = data.select("entity", "sentiment", "url", "region", "timestamp").withWatermark("timestamp", "1 minute")\
     .groupBy(window("timestamp", "2 minutes", "2 minutes"), 'region', 'entity')\
-    .agg(collect_list("sentiment"))
+    .agg(collect_list("sentiment"), collect_list("url"))
 
 data.writeStream.outputMode("complete").format("console").start().awaitTermination()
 # data.writeStream.outputMode("append")\
