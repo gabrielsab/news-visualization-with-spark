@@ -49,7 +49,7 @@ inData = spark.readStream.format("kafka")\
     .option("maxOffsetsPerTrigger", 100)\
     .option("subscribe","news").load()
 data   = inData.select(from_json(col("value").cast("string"), json_schema).alias("parsed_value"))
-data   = data.select("parsed_value.*")#.filter((col("region") != "canada")) #news might be in france, we are not interested 
+data   = data.select("parsed_value.*").filter((col("region") != "canada")) #news might be in france, we are not interested 
 
 def entity_is_good(entity, lang):
     # check if empty
