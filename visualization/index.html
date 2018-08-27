@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<script src="js/echarts.min.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/echarts-wordcloud.min.js"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<head>
+    <title>ECharts Test</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        function getUrlsHtml(info) {
+            var nodes = [];
+            info.data.urls.forEach(function (url) {
+                nodes.push('<a href="' + url + '">' + url + '</a>');
+            });
+            return nodes.join('<br>')
+        }
+
+        function getCountrySeries(wordcloud) {
+            var ret = {
+                name: wordcloud._dom.id,
+                type: 'wordCloud',
+                left: 'center',
+                top: 'center',
+                width: '75%',
+                height: '80%',
+                rotationRange: [-90, 90],
+                rotationStep: 15,
+                gridSize: 15,
+                textStyle: {
+                    normal: {
+                        fontFamily: 'sans-serif',
+                        fontWeight: 'bold',
+                        // Color can be a callback function or a color string
+                        color: function () {
+                            // Random color
+                            return 'rgb(' + [
+                                Math.round(Math.random() * 160),
+                                Math.round(Math.random() * 160),
+                                Math.round(Math.random() * 160)
+                            ].join(',') + ')';
+                        }
+                    },
+                    emphasis: {
+                        shadowBlur: 10,
+                        shadowColor: '#333'
+                    }
+                },
+                tooltip: {
+                    formatter: function (info) {
+                        return [
+                            '<div class="tooltip-title">' + echarts.format.encodeHTML(info.data.name) + '</div>',
+                            'Count: &nbsp;&nbsp;' + info.data.value + '<br>',
+                            'Sentiment: &nbsp;&nbsp;' + info.data.sentiment + '<br>',
+                            'Urls:<br>',
+                            getUrlsHtml(info)
+                        ].join('');
+                    }
+                },
+                data: wordcloud._dom.data
+            };
+            return ret;
+        }
+
+        var wordclouds = []
+
+        // Asynchronous data loading 
+        jQuery.get('entities.json').done(function (data) {
+            //data = JSON.parse(data);
+
+            data.forEach(function (country) {
+                var countryDiv = document.createElement("div");
+                countryDiv.id = country.region;
+                countryDiv.style = "width: 800px;height:600px;";
+                countryDiv.data = country.entities;
+                document.body.appendChild(countryDiv);
+
+                var wordcloud = echarts.init(document.getElementById(country.region));
+
+                wordcloud.showLoading();
+
+                wordcloud.on('click', function (params) {
+                    console.log(params.data.name, params.data.value, params.dataIndex);
+                });
+
+                wordclouds.push(wordcloud);
+
+                var maskImage = new Image();
+                maskImage.src = 'img/' + wordcloud._dom.id + '.png';
+
+                maskImage.onload = function () {
+                    console.log(wordcloud._dom.id);
+                    var countrySeries = getCountrySeries(wordcloud);
+                    countrySeries.maskImage = maskImage;
+                    var option = {
+                        title: {
+                            text: wordcloud._dom.id,
+                            subtext: 'Default layout',
+                            top: 'bottom',
+                            left: 'right'
+                        },
+                        tooltip: {
+                            triggerOn: 'click'
+                        },
+                        series: countrySeries
+                    };
+                    wordcloud.hideLoading();
+                    wordcloud.setOption(option);
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1665 @@
+[
+    {
+        "region": "brazil",
+        "entities": [
+            {
+                "name": "Bolsonaro",
+                "value": 2,
+                "sentiment": -0.5,
+                "urls": [
+                    "http://dummy.com",
+                    "http://whatever.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Ciro",
+                "value": 3,
+                "sentiment": -0.1,
+                "urls": [
+                    "http://dummy.com",
+                    "http://whatever.com",
+                    "http://example.com"
+                ]
+            },
+            {
+                "name": "Marina",
+                "value": 3,
+                "sentiment": -0.1,
+                "urls": [
+                    "http://dummy.com",
+                    "http://whatever.com",
+                    "http://example.com",
+                    "http://verde.com.br"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Lula",
+                "value": 1,
+                "sentiment": -0.2,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            }
+        ]
+    },
+    {
+        "region": "united states",
+        "entities": [
+            {
+                "name": "Trump",
+                "value": 5,
+                "sentiment": -0.6,
+                "urls": [
+                    "http://dummy.com",
+                    "http://whatever.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Medicare",
+                "value": 3,
+                "sentiment": 0.1,
+                "urls": [
+                    "http://dummy.com",
+                    "http://whatever.com",
+                    "http://example.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Obama",
+                "value": 1,
+                "sentiment": 0.7,
+                "urls": [
+                    "http://dummy.com"
+                ]
+            },
+            {
+                "name": "Trump",
+                "value": 2,
+                "sentiment": -0.6,
+                "urls": [
+                    "http://dummy.com",
+                    "http://whatever.com"
+                ]
+            },
+            {
+                "name": "Trump",
+                "value": 2,
+                "sentiment": -0.6,
+                "urls": [
+                    "http://dummy.com",
+                    "http://whatever.com"
+                ]
+            },
+            {
+                "name": "Trump",
+                "value": 2,
+                "sentiment": -0.6,
+                "urls": [
+                    "http://dummy.com",
+                    "http://whatever.com"
+                ]
+            },
+            {
+                "name": "Trump",
+                "value": 2,
+                "sentiment": -0.6,
+                "urls": [
+                    "http://dummy.com",
+                    "http://whatever.com"
+                ]
+            }
+        ]
+    }
+]
