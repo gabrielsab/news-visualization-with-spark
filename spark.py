@@ -24,9 +24,9 @@ import spacy
 nlps 	           = {}
 nlps['en']         = spacy.load('en')
 nlps['pt']         = spacy.load('pt')
-nlps['es'] 		   = spacy.load('es')
-checkpointLocation = "/Users/pamelatabak/Documents/PESC_UFRJ/Banco_de_Dados/news-visualization-with-spark/checkpoint"
-path 			   = "/Users/pamelatabak/Documents/PESC_UFRJ/Banco_de_Dados/news-visualization-with-spark/output"
+nlps['es'] 	   = spacy.load('es')
+checkpointLocation = "/home/pamelatabak/news-visualization-with-spark/checkpoint"
+path 		   = "/home/pamelatabak/news-visualization-with-spark/output"
 
 json_schema = StructType([
     StructField("body", StringType()),
@@ -45,7 +45,7 @@ spark = SparkSession.builder.appName("PythonStreamingRecieverKafka")\
 spark.sparkContext.setLogLevel("ERROR")
 
 inData = spark.readStream.format("kafka")\
-    .option("kafka.bootstrap.servers", "localhost:9092")\
+    .option("kafka.bootstrap.servers", "35.188.218.12:9092")\
     .option("maxOffsetsPerTrigger", 100)\
     .option("subscribe","news").load()
 data   = inData.select(from_json(col("value").cast("string"), json_schema).alias("parsed_value"))
@@ -118,10 +118,10 @@ data 	  = data.withColumn('entity', split_col.getItem(0))
 data      = data.withColumn('sentiment', split_col.getItem(1))
 data      = data.withColumn('url', split_col.getItem(2))
 data      = data.select("entity", "sentiment", "url", "region", "timestamp").withWatermark("timestamp", "1 minute")\
-    .groupBy(window("timestamp", "2 minutes", "2 minutes"), 'region', 'entity')\
+    .groupBy(window("timestamp", "15 minutes", "15 minutes"), 'region', 'entity')\
     .agg(collect_list("sentiment"), collect_list("url"))
 
-# data.writeStream.outputMode("complete").format("console").start().awaitTermination()
+#data.writeStream.outputMode("complete").format("console").start().awaitTermination()
 data.writeStream.outputMode("append")\
     .format("json")\
     .option("checkpointLocation", checkpointLocation) \
