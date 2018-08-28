@@ -1,0 +1,180 @@
+[
+    {
+        "region": "brazil",
+        "windows": [
+            {
+                "window": {
+                    "start": "2018-08-08T01:18:00.000-03:00",
+                    "end": "2018-08-08T01:20:00.000-03:00"
+                },
+                "entities": [
+                    {
+                        "name": "Bolsonaro",
+                        "value": 2,
+                        "sentiments": [
+                            -0.25,
+                            -0.75
+                        ],
+                        "urls": [
+                            "http://dummy.com",
+                            "http://whatever.com"
+                        ]
+                    },
+                    {
+                        "name": "Lula",
+                        "value": 1,
+                        "sentiments": [
+                            -0.2
+                        ],
+                        "urls": [
+                            "http://dummy.com"
+                        ]
+                    },
+                    {
+                        "name": "Ciro",
+                        "value": 3,
+                        "sentiments": [
+                            -0.3,
+                            0.1,
+                            -0.1
+                        ],
+                        "urls": [
+                            "http://dummy.com",
+                            "http://whatever.com",
+                            "http://example.com"
+                        ]
+                    }
+                ]
+            },
+            {
+                "window": {
+                    "start": "2018-08-08T01:20:00.000-03:00",
+                    "end": "2018-08-08T01:22:00.000-03:00"
+                },
+                "entities": [
+                    {
+                        "name": "Bolsonaro",
+                        "value": 1,
+                        "sentiments": [
+                            -0.5
+                        ],
+                        "urls": [
+                            "http://dummy.com"
+                        ]
+                    },
+                    {
+                        "name": "Lula",
+                        "value": 2,
+                        "sentiments": [
+                            -0.2,
+                            0.1
+                        ],
+                        "urls": [
+                            "http://dummy.com",
+                            "http://whatever.com"
+                        ]
+                    },
+                    {
+                        "name": "Marina",
+                        "value": 1,
+                        "sentiments": [
+                            0.0
+                        ],
+                        "urls": [
+                            "http://example.com"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "region": "united states",
+        "windows": [
+            {
+                "window": {
+                    "start": "2018-08-08T01:18:00.000-03:00",
+                    "end": "2018-08-08T01:20:00.000-03:00"
+                },
+                "entities": [
+                    {
+                        "name": "Trump",
+                        "value": 2,
+                        "sentiments": [
+                            -0.25,
+                            -0.75
+                        ],
+                        "urls": [
+                            "http://dummy.com",
+                            "http://whatever.com"
+                        ]
+                    },
+                    {
+                        "name": "Hilary",
+                        "value": 1,
+                        "sentiments": [
+                            -0.2
+                        ],
+                        "urls": [
+                            "http://dummy.com"
+                        ]
+                    },
+                    {
+                        "name": "GOP",
+                        "value": 3,
+                        "sentiments": [
+                            -0.3,
+                            0.1,
+                            -0.1
+                        ],
+                        "urls": [
+                            "http://dummy.com",
+                            "http://whatever.com",
+                            "http://example.com"
+                        ]
+                    }
+                ]
+            },
+            {
+                "window": {
+                    "start": "2018-08-08T01:20:00.000-03:00",
+                    "end": "2018-08-08T01:22:00.000-03:00"
+                },
+                "entities": [
+                    {
+                        "name": "Trump",
+                        "value": 1,
+                        "sentiments": [
+                            -0.5
+                        ],
+                        "urls": [
+                            "http://dummy.com"
+                        ]
+                    },
+                    {
+                        "name": "Medicare",
+                        "value": 2,
+                        "sentiments": [
+                            -0.2,
+                            0.1
+                        ],
+                        "urls": [
+                            "http://dummy.com",
+                            "http://whatever.com"
+                        ]
+                    },
+                    {
+                        "name": "Obama",
+                        "value": 1,
+                        "sentiments": [
+                            0.6
+                        ],
+                        "urls": [
+                            "http://example.com"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
