@@ -11,6 +11,42 @@
 
 <body>
     <script type="text/javascript">
+        var countryDimensions = {
+            "brazil": {
+                "width": 800,
+                "height": 700
+            },
+            "united states": {
+                "width": 920,
+                "height": 569
+            },
+            "argentina": {
+                "width": 400,
+                "height": 880
+            }
+        };
+
+        var countryTitleColors = {
+            "brazil": '#009b3a',
+            "united states": '#b22234',
+            "argentina": '#18c6dd'
+        };
+
+        var countryWordcloudColors = {
+            "brazil": [
+                '#009b3a',
+                '#e7c901'
+            ],
+            "united states": [
+                '#b22234',
+                '#3c3b6e'
+            ],
+            "argentina": [
+                '#18c6dd',
+                '#ffffff'
+            ]
+        };
+
         function getUrlsHtml(info) {
             var nodes = [];
             info.data.urls.forEach(function (url) {
@@ -27,6 +63,7 @@
                 top: 'center',
                 width: '75%',
                 height: '80%',
+                sizeRange: [12, 42],
                 rotationRange: [-90, 90],
                 rotationStep: 15,
                 gridSize: 15,
@@ -34,19 +71,24 @@
                     normal: {
                         fontFamily: 'sans-serif',
                         fontWeight: 'bold',
-                        // Color can be a callback function or a color string
+                        // Set word colors according to country, or random if not specified
                         color: function () {
-                            // Random color
-                            return 'rgb(' + [
-                                Math.round(Math.random() * 160),
-                                Math.round(Math.random() * 160),
-                                Math.round(Math.random() * 160)
-                            ].join(',') + ')';
+                            if (wordcloud._dom.id in countryWordcloudColors) {
+                                return countryWordcloudColors[wordcloud._dom.id][Math.floor(Math.random() * (countryWordcloudColors[wordcloud._dom.id].length))];
+                            }
+                            else {
+                                // Random color
+                                return 'rgb(' + [
+                                    Math.round(Math.random() * 160),
+                                    Math.round(Math.random() * 160),
+                                    Math.round(Math.random() * 160)
+                                ].join(',') + ')';
+                            }
                         }
                     },
                     emphasis: {
                         shadowBlur: 10,
-                        shadowColor: '#333'
+                        shadowColor: '#ddd'
                     }
                 },
                 tooltip: {
@@ -65,53 +107,117 @@
             return ret;
         }
 
-        var wordclouds = []
+        function loadData() {
+            // Get table element
+            var table = document.getElementById("table");
+            
+            // Remove all child nodes in table
+            while (table.firstChild) {
+                table.removeChild(table.firstChild);
+            };
 
-        // Asynchronous data loading 
-        jQuery.get('entities.json').done(function (data) {
-            //data = JSON.parse(data);
+            var wordclouds = []
 
-            data.forEach(function (country) {
-                var countryDiv = document.createElement("div");
-                countryDiv.id = country.region;
-                countryDiv.style = "width: 800px;height:600px;";
-                countryDiv.data = country.entities;
-                document.body.appendChild(countryDiv);
+            // Asynchronous data loading 
+            jQuery.get({ url: 'entities.json', cache: false }).done(function (data) {
+                //data = JSON.parse(data);
 
-                var wordcloud = echarts.init(document.getElementById(country.region));
+                data.forEach(function (country) {
 
-                wordcloud.showLoading();
+                    // Create div element for country word cloud
+                    var countryDiv = document.createElement("div");
+                    countryDiv.id = country.region;
+                    countryDiv.style = "width: " +
+                        (country.region in countryDimensions ? countryDimensions[country.region].width : '800') +
+                        "px;height:" +
+                        (country.region in countryDimensions ? countryDimensions[country.region].height : '600') +
+                        "px;";
+                    countryDiv.align = "center";
 
-                wordcloud.on('click', function (params) {
-                    console.log(params.data.name, params.data.value, params.dataIndex);
+                    // Get table row element (existent or create new)
+                    var row = undefined;
+                    if (wordclouds.length % 2 == 0) {
+                        row = document.createElement("tr");
+                        row.id = "row_" + Math.floor(wordclouds.length / 2);
+                        table.appendChild(row);
+                    }
+                    else {
+                        row = document.getElementById("row_" + Math.floor(wordclouds.length / 2));
+                    }
+
+                    // Create cell for new word cloud
+                    var cell = document.createElement("td");
+                    cell.style = "width:1000px;height:1000px;";
+                    cell.align = "center";
+                    row.appendChild(cell);
+                    cell.appendChild(countryDiv);
+
+                    // Add data to div so we can retrieve it afterwards
+                    countryDiv.data = country.entities;
+
+                    // Initialize ECharts wordcloud
+                    var wordcloud = echarts.init(countryDiv);
+                    wordcloud.showLoading();
+
+                    // // Set wordcloud click callback
+                    // wordcloud.on('click', function (params) {
+                    //     console.log(params.data.name, params.data.value, params.dataIndex);
+                    // });
+
+                    // Add wordcloud to list
+                    wordclouds.push(wordcloud);
+
+                    // Create image for country word cloud mask
+                    var maskImage = new Image();
+                    maskImage.src = 'img/' + wordcloud._dom.id + '.png';
+
+                    // LOad mask image
+                    maskImage.onload = function () {
+                        // Get country series for ECharts wordcloud option
+                        var countrySeries = getCountrySeries(wordcloud);
+                        
+                        countrySeries.maskImage = maskImage;
+                        
+                        var option = {
+                            title: {
+                                // Convert first letters to upper case in title
+                                text: wordcloud._dom.id.replace(/\w\S*/g, function (txt) {
+                                    return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+                                }),
+                                //subtext: 'Default layout',
+                                top: 'top',
+                                left: 'center',
+                                textStyle: {
+                                    // Set title color according to country, or default if not defined
+                                    color: wordcloud._dom.id in countryTitleColors ? countryTitleColors[wordcloud._dom.id] : '#fff'
+                                }
+                            },
+                            tooltip: {
+                                triggerOn: 'click'
+                            },
+                            series: countrySeries
+                        };
+
+                        wordcloud.hideLoading();
+
+                        wordcloud.setOption(option);
+                    }
                 });
-
-                wordclouds.push(wordcloud);
-
-                var maskImage = new Image();
-                maskImage.src = 'img/' + wordcloud._dom.id + '.png';
-
-                maskImage.onload = function () {
-                    console.log(wordcloud._dom.id);
-                    var countrySeries = getCountrySeries(wordcloud);
-                    countrySeries.maskImage = maskImage;
-                    var option = {
-                        title: {
-                            text: wordcloud._dom.id,
-                            subtext: 'Default layout',
-                            top: 'bottom',
-                            left: 'right'
-                        },
-                        tooltip: {
-                            triggerOn: 'click'
-                        },
-                        series: countrySeries
-                    };
-                    wordcloud.hideLoading();
-                    wordcloud.setOption(option);
-                }
             });
-        });
+        }
+
+        document.body.style = "background-color: #222222";
+
+        // Create table element
+        var table = document.createElement("table");
+        table.id = "table";
+        document.body.appendChild(table);
+
+        // LOad data for the first time
+        loadData();
+
+        // Set data loading to be called repeatedly
+        setInterval(loadData, 5000);
     </script>
 </body>
 
