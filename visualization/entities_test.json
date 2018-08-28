@@ -1,0 +1,2019 @@
+[
+    {
+        "country": "argentina",
+        "entities": [
+            {
+                "avg_sentiment": 0.0,
+                "name": "El objetivo",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W20098u6ljednht715lzk&l=es&referer=RQwxdElocmHnFqygWGqMNc8n0DeXCCBdDKK/7yq/eM9/JctcLfslitedkbw2eZzv0DCdls7oEcyczki5SXRDA3umrN9Lv6pQ^_940"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Escuela de Bellas Artes Prilidiano Pueyrred\u00f3n",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://www.taringa.net/posts/arte/20227280/Serie-Los-Pintores-308-Juan-Carlos-Benitez.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Stefani",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W20098u6ljednht715lzk&l=es&referer=RQwxdElocmHnFqygWGqMNc8n0DeXCCBdDKK/7yq/eM9/JctcLfslitedkbw2eZzv0DCdls7oEcyczki5SXRDA3umrN9Lv6pQ^_940"
+                    }
+                ],
+                "value": 3
+            },
+            {
+                "avg_sentiment": 0.07500000000000001,
+                "name": "Andrea Alberelli",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.07500000000000001,
+                        "url": "https://www.lapostacomodorense.com.ar/?p=62924"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Jorge",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "http://www.p23.com.ar/index.php?s=!ver-notas$$$W200c4id2biyv17zgl5204&l=es&referer=iFwrKv0k0whXsYVNbWapanLmBSntJfb4YSSSXpGUYV75YboLdPhZQw2azdT2g3+X6yE+HHOMAXbRvRc6t/47vfRKwnjcDqw=^_939"
+                    }
+                ],
+                "value": 1
+            }
+        ]
+    },
+    {
+        "country": "mexico",
+        "entities": [
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 4
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 2
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": -0.10000000000000002,
+                "name": "IESM",
+                "url_sentiments": [
+                    {
+                        "sentiment": -0.10000000000000002,
+                        "url": "http://www.eluniversal.com.mx/nacion/sociedad/padecer-enfermedades-mentales-motivo-de-discriminacion"
+                    }
+                ],
+                "value": 1
+            }
+        ]
+    },
+    {
+        "country": "brazil",
+        "entities": [
+            {
+                "avg_sentiment": 0.0,
+                "name": "Bolsa de Santiago",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://www.terra.com.br/economia/minerva-avalia-abertura-de-capital-da-athena-foods-na-bolsa-chilena,9fcb7648b5a3c4aba74b61a0485473b1aqawygdw.html"
+                    }
+                ],
+                "value": 4
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Admar Gonzaga",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://exame.abril.com.br/brasil/mbl-entra-com-recurso-no-tse-para-barrar-candidatura-de-lula/"
+                    }
+                ],
+                "value": 2
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Humberto Costa",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 10
+            },
+            {
+                "avg_sentiment": 0.0,
+                "name": "Lula",
+                "url_sentiments": [
+                    {
+                        "sentiment": 0.0,
+                        "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2018/08/aprovados-projetos-que-tornam-crime-importunacao-sexual-e-divulgacao-de-cenas-de-estupro-cjkkflze801i501pifosjdum2.html"
+                    }
+                ],
+                "value": 1
+            }
+        ]
+    }
+]

@@ -6,7 +6,8 @@
 <script src="https://d3js.org/d3.v5.min.js"></script>
 
 <head>
-    <title>ECharts Test</title>
+    <title>News wordclouds - Tóp. Esp. Banco de Dados I</title>
+    <meta charset="UTF-8">
 </head>
 
 <body>
@@ -55,8 +56,10 @@
 
         function getUrlsHtml(info) {
             var nodes = [];
-            info.data.urls.forEach(function (url) {
-                nodes.push('<a href="' + url + '">' + url + '</a>');
+            var count = 0;
+            info.data.url_sentiments.forEach(function (url) {
+                count = count + 1;
+                nodes.push('<a href="' + url.url + '">Notícia ' + count + '</a> - Sentiment: ' + url.sentiment);
             });
             return nodes.join('<br>')
         }
@@ -69,7 +72,7 @@
                 top: 'center',
                 width: '75%',
                 height: '80%',
-                sizeRange: [12, 42],
+                sizeRange: [12, 24],
                 rotationRange: [-90, 90],
                 rotationStep: 15,
                 gridSize: 15,
@@ -106,8 +109,7 @@
                         return [
                             '<div class="tooltip-title">' + echarts.format.encodeHTML(info.data.name) + '</div>',
                             'Count: &nbsp;&nbsp;' + info.data.value + '<br>',
-                            'Sentiment: &nbsp;&nbsp;' + info.data.sentiment + '<br>',
-                            'Urls:<br>',
+                            'Average sentiment: &nbsp;&nbsp;' + info.data.avg_sentiment + '<br>',
                             getUrlsHtml(info)
                         ].join('');
                     }
@@ -129,18 +131,18 @@
             var wordclouds = []
 
             // Asynchronous data loading 
-            jQuery.get({ url: 'entities.json', cache: false }).done(function (data) {
+            jQuery.get({ url: 'entities_test.json', cache: false }).done(function (data) {
                 //data = JSON.parse(data);
 
                 data.forEach(function (country) {
 
                     // Create div element for country word cloud
                     var countryDiv = document.createElement("div");
-                    countryDiv.id = country.region;
+                    countryDiv.id = country.country;
                     countryDiv.style = "width: " +
-                        (country.region in countryDimensions ? countryDimensions[country.region].width : '800') +
+                        (country.country in countryDimensions ? countryDimensions[country.country].width : '800') +
                         "px;height:" +
-                        (country.region in countryDimensions ? countryDimensions[country.region].height : '600') +
+                        (country.country in countryDimensions ? countryDimensions[country.country].height : '600') +
                         "px;";
                     countryDiv.align = "center";
 
