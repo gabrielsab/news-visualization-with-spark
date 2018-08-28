@@ -11,6 +11,12 @@
 
 <body>
     <script type="text/javascript">
+        var countryMasks = {
+            "brazil": "brazil.png",
+            "united states": "united states.png",
+            "argentina": "argentina.png"
+        };
+
         var countryDimensions = {
             "brazil": {
                 "width": 800,
@@ -39,7 +45,7 @@
             ],
             "united states": [
                 '#b22234',
-                '#3c3b6e'
+                '#5e5d8f'
             ],
             "argentina": [
                 '#18c6dd',
@@ -92,6 +98,10 @@
                     }
                 },
                 tooltip: {
+                    backgroundColor: "#999999",
+                    textStyle: {
+                        color: "#222222"
+                    },
                     formatter: function (info) {
                         return [
                             '<div class="tooltip-title">' + echarts.format.encodeHTML(info.data.name) + '</div>',
@@ -110,7 +120,7 @@
         function loadData() {
             // Get table element
             var table = document.getElementById("table");
-            
+
             // Remove all child nodes in table
             while (table.firstChild) {
                 table.removeChild(table.firstChild);
@@ -167,17 +177,47 @@
                     // Add wordcloud to list
                     wordclouds.push(wordcloud);
 
-                    // Create image for country word cloud mask
-                    var maskImage = new Image();
-                    maskImage.src = 'img/' + wordcloud._dom.id + '.png';
+                    if (wordcloud._dom.id in countryMasks) {
+                        // Create image for country word cloud mask
+                        var maskImage = new Image();
+                        maskImage.src = 'img/' + countryMasks[wordcloud._dom.id];
 
-                    // LOad mask image
-                    maskImage.onload = function () {
+                        // LOad mask image
+                        maskImage.onload = function () {
+                            // Get country series for ECharts wordcloud option
+                            var countrySeries = getCountrySeries(wordcloud);
+
+                            countrySeries.maskImage = maskImage;
+
+                            var option = {
+                                title: {
+                                    // Convert first letters to upper case in title
+                                    text: wordcloud._dom.id.replace(/\w\S*/g, function (txt) {
+                                        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+                                    }),
+                                    //subtext: 'Default layout',
+                                    top: 'top',
+                                    left: 'center',
+                                    textStyle: {
+                                        // Set title color according to country, or default if not defined
+                                        color: wordcloud._dom.id in countryTitleColors ? countryTitleColors[wordcloud._dom.id] : '#fff'
+                                    }
+                                },
+                                tooltip: {
+                                    triggerOn: 'click'
+                                },
+                                series: countrySeries
+                            };
+
+                            wordcloud.hideLoading();
+
+                            wordcloud.setOption(option);
+                        }
+                    }
+                    else {
                         // Get country series for ECharts wordcloud option
                         var countrySeries = getCountrySeries(wordcloud);
-                        
-                        countrySeries.maskImage = maskImage;
-                        
+
                         var option = {
                             title: {
                                 // Convert first letters to upper case in title
