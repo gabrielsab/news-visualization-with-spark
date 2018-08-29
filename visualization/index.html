@@ -68,6 +68,7 @@
             var ret = {
                 name: wordcloud._dom.id,
                 type: 'wordCloud',
+                shape: 'circle',
                 left: 'center',
                 top: 'center',
                 width: '75%',
@@ -131,7 +132,7 @@
             var wordclouds = []
 
             // Asynchronous data loading 
-            jQuery.get({ url: 'entities_test.json', cache: false }).done(function (data) {
+            jQuery.get({ url: 'entities.json', cache: false }).done(function (data) {
                 //data = JSON.parse(data);
 
                 data.forEach(function (country) {
@@ -259,7 +260,7 @@
         loadData();
 
         // Set data loading to be called repeatedly
-        setInterval(loadData, 5000);
+        setInterval(loadData, 60000);
     </script>
 </body>
 

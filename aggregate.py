@@ -1,19 +1,20 @@
+
 import glob
 import os
 import json
 import time
 from datetime import datetime, timedelta
 
-spark_result_dir   = '/home/gabriel/dev/bigdata/news-visualization-with-spark/output_test/'
-agg_output_dir     = '/home/gabriel/dev/bigdata/news-visualization-with-spark/agg_test/'
-agg_control_file   = 'control_test.json'
-agg_result_file    = 'entities_test.json'
-sleep_time_seconds = 60
+spark_result_dir   = '/home/pamela/news-visualization-with-spark/output/'
+agg_output_dir     = '/home/pamela/news-visualization-with-spark/visualization/'
+agg_control_file   = 'control.json'
+agg_result_file    = 'entities.json'
+sleep_time_seconds = 300
 timedelta_accepted = timedelta(0, 1800) # second argument is seconds
 
 def get_window_datetime(window_start):
-    last_colon_idx  = window_start.rfind(':')
-    return datetime.strptime(window_start[:last_colon_idx]+window_start[last_colon_idx+1:], '%Y-%m-%dT%H:%M:%S.%f%z')
+    #last_colon_idx  = window_start.rfind(':')
+    return datetime.strptime(window_start, '%Y-%m-%dT%H:%M:%S.%fZ')#%z')
 
 def update_control(control, spark_result):
     country = spark_result['region']
@@ -53,7 +54,7 @@ def update_control(control, spark_result):
                 control['countries'][country][window_start][entity]['count'] += 1
                 control['countries'][country][window_start][entity]['sentiments'][urls[i]] = []
             
-            control['countries'][country][window_start][entity]['sentiments'][urls[i]].append(float(sentiments[i]))
+            control['countries'][country][window_start][entity]['sentiments'][urls[i]].append(float(sentiments[i].replace('--', '-')))
 
 def generate_result(control):
     result = []
@@ -84,7 +85,10 @@ def generate_result(control):
 
             for url in entities_data[entity]['sentiments']:
                 url_sentiments    = entities_data[entity]['sentiments'][url]
-                url_avg_sentiment = sum(url_sentiments)/len(url_sentiments)
+                if url_sentiments:
+                    url_avg_sentiment = sum(url_sentiments)/len(url_sentiments)
+                else:
+                    url_avg_sentiment = 0.0
                 
                 entity_dict['url_sentiments'].append({'url': url, 'sentiment': url_avg_sentiment})
 
